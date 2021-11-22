@@ -1,0 +1,32 @@
+/// Description
+Class msg.commandeVoitureDmde Extends Ens.Request
+{
+
+Property marque As %String;
+
+Property modele As %String;
+
+Property couleur As %String;
+
+Storage Default
+{
+<Data name="commandeVoitureDmdeDefaultData">
+<Subscript>"commandeVoitureDmde"</Subscript>
+<Value name="1">
+<Value>marque</Value>
+</Value>
+<Value name="2">
+<Value>PropertyName</Value>
+</Value>
+<Value name="3">
+<Value>modele</Value>
+</Value>
+<Value name="4">
+<Value>couleur</Value>
+</Value>
+</Data>
+<DefaultData>commandeVoitureDmdeDefaultData</DefaultData>
+<Type>%Storage.Persistent</Type>
+}
+
+}
