@@ -9,5 +9,12 @@
 	],
 	"settings": {
 		"objectscript.conn.active": false
+	},
+	"extensions": {
+		"recommendations": [
+			"intersystems.language-server",
+			"intersystems-community.vscode-objectscript",
+			"intersystems-community.servermanager"
+		]
 	}
 }
