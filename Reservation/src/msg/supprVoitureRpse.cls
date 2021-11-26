@@ -1,4 +1,4 @@
-Class msg.creerVoitureRpse Extends msg.basic.reponse
+Class msg.supprVoitureRpse Extends msg.basic.reponse
 {
 
 Storage Default

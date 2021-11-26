@@ -12,12 +12,15 @@ Storage Default
 <Data name="creerVoitureDmdeDefaultData">
 <Subscript>"creerVoitureDmde"</Subscript>
 <Value name="1">
-<Value>nom</Value>
+<Value>voiture</Value>
 </Value>
 <Value name="2">
-<Value>categorie</Value>
+<Value>nom</Value>
 </Value>
 <Value name="3">
+<Value>categorie</Value>
+</Value>
+<Value name="4">
 <Value>plaque</Value>
 </Value>
 </Data>
