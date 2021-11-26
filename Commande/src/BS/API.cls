@@ -11,7 +11,7 @@ XData UrlMap [ XMLNamespace = "http://www.intersystems.com/urlmap" ]
 <!-- Swagger specs -->
 <Route Url="/_spec" Method="GET" Call="SwaggerSpec" />
 <!-- Récupérer le catalogue -->
-<Route Url="/catalogue/" Method="get" Call="GetCatalogue"/>
+<Route Url="/catalogue/" Method="GET" Call="GetCatalogue"/>
 <!-- Commander une voiture -->
 <Route Url="/voiture/" Method="POST" Call="CommanderVoiture"/>
 </Routes>
