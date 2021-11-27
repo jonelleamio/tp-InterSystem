@@ -21,6 +21,11 @@ XData ProductionDefinition
   </Item>
   <Item Name="ServiceVoiture" Category="" ClassName="BS.ServiceVoiture" PoolSize="0" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
   </Item>
+  <Item Name="Reservation" Category="" ClassName="BO.Reservation" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
+    <Setting Target="Adapter" Name="HTTPPort">52773</Setting>
+    <Setting Target="Adapter" Name="HTTPServer">localhost</Setting>
+    <Setting Target="Adapter" Name="Credentials">reservationCredentials</Setting>
+  </Item>
 </Production>
 }
 
