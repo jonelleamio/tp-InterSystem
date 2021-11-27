@@ -43,8 +43,8 @@ ClassMethod CreerVoiture() As %Status
 
     //On récupére les données de la requête
     Set data=%request.Content
-    $$$TOE(tSC,msg.%JSONImport(data))
-    //do msg.%JSONImport(data)
+    //$$$TOE(tSC,msg.%JSONImport(data))
+    do msg.%JSONImport(data)
 
     set tSC = ##class(Ens.Director).CreateBusinessService("ServiceVoiture",.tService) if $$$ISERR(tSC) quit tSC
     set tSC = tService.ProcessInput(msg,.response,"creerVoiture")
