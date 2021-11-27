@@ -17,24 +17,21 @@ Storage Default
 {
 <Data name="wsVoitureCommandeState">
 <Value name="1">
-<Value>nom</Value>
-</Value>
-<Value name="2">
-<Value>categorie</Value>
-</Value>
-<Value name="3">
-<Value>plaque</Value>
-</Value>
-<Value name="4">
 <Value>marque</Value>
 </Value>
-<Value name="5">
+<Value name="2">
 <Value>modele</Value>
 </Value>
-<Value name="6">
+<Value name="3">
+<Value>categorie</Value>
+</Value>
+<Value name="4">
+<Value>plaque</Value>
+</Value>
+<Value name="5">
 <Value>couleur</Value>
 </Value>
-<Value name="7">
+<Value name="6">
 <Value>nbPlaces</Value>
 </Value>
 </Data>

@@ -1,5 +1,6 @@
 Class Production.ProductionReservation Extends Ens.Production
 {
+
 XData ProductionDefinition
 {
 <Production Name="Production.ProductionReservation">
@@ -10,4 +11,5 @@ XData ProductionDefinition
   </Item>
 </Production>
 }
+
 }

@@ -82,7 +82,7 @@ XData MessageMap
     <MapItem MessageType="msg.creerVoitureDmde">
         <Method>creerVoiture</Method>
     </MapItem>
-    <MapItem MessageType="msg.supprimerVoitureDmde">
+    <MapItem MessageType="msg.supprVoitureDmde">
         <Method>supprimerVoiture</Method>
     </MapItem>
     <MapItem MessageType="msg.Reservation.checkReservationDmde">
